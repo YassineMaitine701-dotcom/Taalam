@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تعلم - Taalam</title>
+    <style>
+        body { font-family: sans-serif; background: #f0f2f5; margin: 0; text-align: center; }
+        header { background: #2c3e50; color: white; padding: 20px; }
+        .grid { display: grid; grid-template-columns: 1fr; gap: 15px; padding: 20px; }
+        .card { background: white; padding: 20px; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); text-decoration: none; color: #333; }
+        .btn-forum { background: #27ae60; color: white; padding: 15px; border-radius: 5px; display: block; margin: 10px; text-decoration: none; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>منصة تـعـلـم - Taalam</h1>
+        <p>المنهج المغربي: دروس، PDF، وامتحانات</p>
+    </header>
+    <div class="grid">
+        <a href="#" class="card"><h3>الدروس المسجلة</h3><p>المحتوى المفضل لـ 55% من طلابنا</p></a>
+        <a href="#" class="card"><h3>ملخصات PDF</h3><p>تحميل مباشر للمواد</p></a>
+        <a href="#" class="card"><h3>الامتحانات التفاعلية</h3><p>تصحيح فوري لقياس مستواك</p></a>
+        <a href="#" class="btn-forum">دخول منتدى النقاش (Forum)</a>
+    </div>
+</body>
+</html>
